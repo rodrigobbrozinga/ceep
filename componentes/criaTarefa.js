@@ -10,7 +10,7 @@ export const handleNovoItem = (evento) => {
     const input = document.querySelector('[data-form-input]')
     const valor = input.value
 
-    const calendario = ('[data-form-date]')
+    const calendario = document.querySelector('[data-form-date]')
     const data = moment(calendario.value)
     const dataFormatada = data.format('DD/MM/YYYY')
 
